@@ -3,6 +3,7 @@ node_modules
 .DS_Store
 .vscode
 !.vscode/settings.json
+projects
 
 
 # environment variables
