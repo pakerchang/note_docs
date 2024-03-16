@@ -1,0 +1,9 @@
+{
+  "name": "@pz/prettier-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@pz/eslint-config": "workspace:*",
+    "prettier": "^3.2.5"
+  }
+}

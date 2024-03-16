@@ -3,7 +3,6 @@
     "target": "ESNext",
     "module": "ESNext",
     "strict": true,
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
 
     // lint
@@ -18,12 +17,23 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
 
-    // path
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
+    // js
+    "allowJs": true,
+    "checkJs": true,
+
+    // check
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+
+    // // path
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@/*": ["src/*"]
+    // },
 
     // jsx
     "jsx": "react-jsx",
@@ -32,6 +42,5 @@
     // types
     "types": ["node", "vite/client", "react", "react-dom"]
   },
-  "include": ["sample/**/*"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules"]
 }
