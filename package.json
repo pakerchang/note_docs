@@ -1,8 +1,4 @@
 {
   "name": "note_docs",
-  "version": "1.0.0",
-  "scripts": {},
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {}
+  "version": "1.0.0"
 }

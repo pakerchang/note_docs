@@ -2,7 +2,7 @@
   "name": "@pz/typescript-config",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^20.11.28",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
