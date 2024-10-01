@@ -4,6 +4,8 @@ node_modules
 .vscode
 !.vscode/settings.json
 projects
+project/*/node_modules
+package/*/node_modules
 
 
 # environment variables

@@ -5,9 +5,12 @@
       "dev": "ts-node index.ts"
    },
    "dependencies": {
-      "@pz/prettier-config": "workspace:*",
-      "@pz/typescript-config": "workspace:*",
       "@pz/eslint-config": "workspace:*",
-      "@pz/eslint-plugin-config":"workspace:*"
+      "@pz/eslint-plugin-config": "workspace:*",
+      "@pz/prettier-config": "workspace:*",
+      "@pz/typescript-config": "workspace:*"
+   },
+   "devDependencies": {
+      "@types/node": "^20.11.28"
    }
 }

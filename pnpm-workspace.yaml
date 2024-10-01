@@ -2,5 +2,4 @@ packages:
   - modules/*
   - docs/*
   - packages/*
-  # exclude:
-  - '!projects/*' 
+  - projects/*
